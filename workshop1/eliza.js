@@ -186,6 +186,7 @@ var rules = {
   ],
   "~*x I felt ~*y": [
     "What other feelings do you have?"
+    "it is normal to feel like this"
   ],
   "~*x I ~*y you ~*z": [
     "Perhaps in your fantasy we ~y each other",
@@ -202,12 +203,14 @@ var rules = {
   ],
   "~*x someone ~*y": [
     "Can you be more specific?",
+    "SOMEBODY TO LOVE"
   ],
   "~*x everyone ~*y": [
     "Surely not everyone",
     "Can you think of anyone in particular?",
     "Who, for example?",
     "You are thinking of a special person",
+    
   ],
   "~*x always ~*y": [
     "Can you think of a specific example?",
@@ -234,6 +237,9 @@ var default_responses = [
   "Please continue",
   "Go on",
   "Do you feel strongly about discussing such things?",
+  "you are not welcome here"
+  " you are boring me "
+  "lets change the subject"
 ];
 
 function choice(lst) {
